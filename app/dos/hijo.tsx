@@ -1,7 +1,9 @@
-export default function Hijo ({children}){
-    return(
+import { ReactNode } from 'react';
+
+export default function Hijo({ children }: { children: ReactNode }) {
+    return (
         <div>
             este es hijo {children}
         </div>
-    )
+    );
 }
